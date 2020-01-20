@@ -1,0 +1,123 @@
+{
+    "panels": [
+      {
+        "title": "Asteria’s 2nd Live! Water Blue New World",
+        "location": "Third Floor Cafe",
+        "start_time": "11:00am",
+        "end_time": "12:00pm",
+        "description": "Join the idol group Asteria as they perform a combination of songs from Love Live! Sunshine!!’s group Aqours. We’d love for you to join us!"
+      },
+      {
+        "title": "From Cosplay to Alt Worlds: The Case of Alternate Reality Games",
+        "location": "Panel 1",
+        "start_time": "11:30am",
+        "end_time": "12:30pm",
+        "description": "Two game designers discuss uses of roleplaying and cosplay within the genre of alternate reality games. Unlike LARPs or RPG videogames, this genre uses a “this is not a game” aesthetic that tries to change the world through collective performance that alters the reality around it. Feat. UChicago faculty Patrick Jagoda and Ashlyn Sparrow."
+      },
+      {
+        "title": "Kpop Random Play",
+        "location": "Panel 2",
+        "start_time": "11:30am",
+        "end_time": "12:30pm",
+        "description": "Do you like kpop? Do you love to dance (or watch people dance?) Come show off your moves to kpop songs new and old!"
+      },
+      {
+        "title": "Kid Yuki and the Otakus",
+        "location": "Third Floor Cafe",
+        "start_time": "11:30am",
+        "end_time": "12:30pm",
+        "description": "Like anime and video game music? Kid Yuki and The Otakus only want to play what you want to hear, so take your pick from over 100 songs from anime like My Hero Academia and Demon Slayer, video games like Kingdom Hearts and Persona, plus RWBY, Steven Universe, and much more!"
+      },
+      {
+        "title": "Anime and Hip Hop",
+        "location": "Panel 2",
+        "start_time": "12:30pm",
+        "end_time": "1:00pm",
+        "description": "We'll be taking a historical look through the lesser-known crossover of Japanese animation and hip hop—starting with Afro Samurai and extending through the works of Watanabe Shinichirō in tandem with Nujabes, Flying Lotus, Denzel Curry, and others. We'll also look the other way around at the influence of anime on hip hop: most famously and widespread DBZ, but also NGE, Akira, and even One Punch Man among others."
+      },
+      {
+        "title": "The Depression and Psychosis of Kyon",
+        "location": "Panel 2",
+        "start_time": "1:00pm",
+        "end_time": "2:00pm",
+        "description": "A Jungian interpretation of The Melancholy of Haruhi Suzumiya and The Disappearance of Haruhi Suzumiya. Additional insights are provided based on post-Jungian and Lacanian frameworks."
+      },
+      {
+        "title": "Cosplay Contest & Wushu",
+        "location": "Panel 1",
+        "start_time": "1:30pm",
+        "end_time": "2:30pm",
+        "description": "View incredible cosplays developed by UChi-Con attendees! Our judge intermission will feature a performance by UChicago Wushu. Contestants must have registered by noon and show up at their designated time slot before the contest for judgment."
+      },
+      {
+        "title": "Groove Theory",
+        "location": "Third Floor Cafe",
+        "start_time": "1:30pm",
+        "end_time": "2:30pm",
+        "description": "Watch the only UChicago dance organization that practices authentic hip-hop street styles. They specialize in on-the-spot freestyling, and aim to spread knowledge of hip-hop dance and culture’s true form."
+      },
+      {
+        "title": "HEART♡HEX",
+        "location": "Panel 1",
+        "start_time": "2:30pm",
+        "end_time": "3:30pm",
+        "description": "HEART♡HEX performs an Aqours-themed live for their third appearance at Uchi! Bring your light sticks, and stay until the end for a chance to win a big prize!"
+      },
+      {
+        "title": "MiraiLoids Vocaloid Mini Live",
+        "location": "Third Floor Cafe",
+        "start_time": "2:30pm",
+        "end_time": "3:30pm",
+        "description": "MiraiLoids is performing for the 3rd time ever here at Uchi Con! We will be doing a mini live, so bring those light sticks, but if you don't have one we will be passing out glowsticks!"
+      },
+      {
+        "title": "A Toast with the Hosts",
+        "location": "Panel 2",
+        "start_time": "3:00pm",
+        "end_time": "4:00pm",
+        "description": "Join the Ouran Host Club as they welcome in the new year. Come ask questions, play some games, and overall have some fun."
+      },
+      {
+        "title": "Michi!Live: Idol Style Debut",
+        "location": "Third Floor Cafe",
+        "start_time": "3:30pm",
+        "end_time": "4:30pm",
+        "description": "Come see Michi!Project in their official full group singing debut at Uchi-con this year! Get ready to jam to new and familiar songs as they bring back dances from previous performances!"
+      },
+      {
+        "title": "Ghost in the Shell (1995) Screening ($)",
+        "location": "Panel 1",
+        "start_time": "4:00pm",
+        "end_time": "5:30pm",
+        "description": "To celebrate the 25th anniversary of this sci-fi classic, we invite you to enjoy a screening by student-run film society DocFilms. Tickets are $7 and can be purchased outside Max P Theater starting at 3:30 PM (cash or card accepted)."
+      },
+      {
+        "title": "TikTok for Cosplay",
+        "location": "Panel 2",
+        "start_time": "4:30pm",
+        "end_time": "5:30pm",
+        "description": "Join TikTok creators as they give insight into how the platform allowed them to channel their creativity, find a new audience, and showcase their cosplay. Get tips and tricks on how to grow your audience and have fun at the same time!"
+      },
+      {
+        "title": "Intro to JPop with Sweet Circuit",
+        "location": "Third Floor Cafe",
+        "start_time": "4:30pm",
+        "end_time": "5:30pm",
+        "description": ""
+      },
+      {
+        "title": "Dubbed Anime Openings",
+        "location": "Panel 2",
+        "start_time": "5:00pm",
+        "end_time": "6:00pm",
+        "description": "An overview of (english) dubbed anime openings."
+      },
+      {
+        "title": "Convention Ends",
+        "location": "Everywhere",
+        "start_time": "6:00pm",
+        "end_time": "Next Year :(",
+        "description": "Thank you for coming to UChi-Con 2020! See you Next Year!"
+      }
+    ]
+  }
