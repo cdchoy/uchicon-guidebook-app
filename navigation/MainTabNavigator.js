@@ -5,7 +5,7 @@ import { createBottomTabNavigator } from 'react-navigation-tabs';
 
 import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
-import LinksScreen from '../screens/LinksScreen';
+import ScheduleScreen from '../screens/ScheduleScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
 const config = Platform.select({
@@ -36,21 +36,21 @@ HomeStack.navigationOptions = {
 
 HomeStack.path = '';
 
-const LinksStack = createStackNavigator(
+const ScheduleStack = createStackNavigator(
   {
-    Links: LinksScreen,
+    Schedule: ScheduleScreen,
   },
   config
 );
 
-LinksStack.navigationOptions = {
+ScheduleStack.navigationOptions = {
   tabBarLabel: 'Schedule',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-calendar' : 'md-calendar'} />
   ),
 };
 
-LinksStack.path = '';
+ScheduleStack.path = '';
 
 const SettingsStack = createStackNavigator(
   {
@@ -70,7 +70,7 @@ SettingsStack.path = '';
 
 const tabNavigator = createBottomTabNavigator({
   HomeStack,
-  LinksStack,
+  ScheduleStack,
   SettingsStack,
 });
 
