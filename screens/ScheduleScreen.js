@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
+import { ScrollView, StyleSheet, Image } from 'react-native';
 
 export default function ScheduleScreen() {
   return (
@@ -9,6 +9,7 @@ export default function ScheduleScreen() {
        * we just wanted to provide you with some helpful links.
        * <ExpoLinksView />
        */}
+       <Image source={require('../assets/images/robot-dev.png')} style={{alignItems: 'center'}} />
     </ScrollView>
   );
 }
