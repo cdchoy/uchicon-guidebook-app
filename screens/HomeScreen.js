@@ -8,63 +8,71 @@ import {
   Text,
   TouchableOpacity,
   View,
+  ImageBackground,
 } from 'react-native';
+import {
+  SocialIcon,
+  Button,
+} from 'react-native-elements';
 
 import { MonoText } from '../components/StyledText';
+import { FontAwesome } from '@expo/vector-icons';
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <ScrollView
+      <ImageBackground source={require('../assets/images/backdrop.png')} style={{width: '100%', height: '100%'}}>
+        <ScrollView
         style={styles.container}
         contentContainerStyle={styles.contentContainer}>
         <View style={styles.welcomeContainer}>
           <Image
-            source={
-              __DEV__
-                ? require('../assets/images/robot-dev.png')
-                : require('../assets/images/robot-prod.png')
-            }
+            source={require('../assets/images/uchicon2020logo.png')}
             style={styles.welcomeImage}
+          />
+          {/* <Text style={styles.dateText}>Saturday January 25</Text>
+          <Text style={styles.dateText}>10am - 6pm</Text> */}
+        </View>
+
+        <View style={styles.socialMediaIcons}>
+          <SocialIcon 
+            type='facebook'
+            onPress={handleFacebookPress}
+          />
+          <SocialIcon 
+            type='instagram'
+            onPress={handleInstagramPress}
+          />
+          <SocialIcon
+            type='twitter'
+            onPress={handleTwitterPress}
           />
         </View>
 
-        <View style={styles.getStartedContainer}>
-          <DevelopmentModeNotice />
-
-          <Text style={styles.getStartedText}>Get started by opening</Text>
-
-          <View
-            style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
-            <MonoText>screens/HomeScreen.js</MonoText>
-          </View>
-
-          <Text style={styles.getStartedText}>
-            Change this text and your app will automatically reload.
-          </Text>
+        <View style={styles.homeMenu}>
+          <Button
+            title="Rules"
+            raised
+            onPress={handleRulesPress}
+            type="outline"
+          />
+          <Button
+            title="Sponsors"
+            raised
+            onPress={handleSponsorsPress}
+            type="outline"
+          />
         </View>
 
-        <View style={styles.helpContainer}>
-          <TouchableOpacity onPress={handleHelpPress} style={styles.helpLink}>
-            <Text style={styles.helpLinkText}>
-              Help, it didn’t automatically reload!
-            </Text>
-          </TouchableOpacity>
+        <View>
+          <Image 
+            source={require('../assets/images/ucjasBirb.png')}
+            style={styles.homeBirbImg}
+          />
         </View>
       </ScrollView>
-
-      <View style={styles.tabBarInfoContainer}>
-        <Text style={styles.tabBarInfoText}>
-          This is a tab bar. You can edit it in:
-        </Text>
-
-        <View
-          style={[styles.codeHighlightContainer, styles.navigationFilename]}>
-          <MonoText style={styles.codeHighlightText}>
-            navigation/MainTabNavigator.js
-          </MonoText>
-        </View>
-      </View>
+      </ImageBackground>
+      
     </View>
   );
 }
@@ -73,45 +81,39 @@ HomeScreen.navigationOptions = {
   header: null,
 };
 
-function DevelopmentModeNotice() {
-  if (__DEV__) {
-    const learnMoreButton = (
-      <Text onPress={handleLearnMorePress} style={styles.helpLinkText}>
-        Learn more
-      </Text>
-    );
-
-    return (
-      <Text style={styles.developmentModeText}>
-        Development mode is enabled: your app will be slower but you can use
-        useful development tools. {learnMoreButton}
-      </Text>
-    );
-  } else {
-    return (
-      <Text style={styles.developmentModeText}>
-        You are not in development mode: your app will run at full speed.
-      </Text>
-    );
-  }
-}
-
-function handleLearnMorePress() {
+function handleFacebookPress() {
   WebBrowser.openBrowserAsync(
-    'https://docs.expo.io/versions/latest/workflow/development-mode/'
+    'https://www.facebook.com/uchicagocon/'
   );
 }
 
-function handleHelpPress() {
+function handleInstagramPress() {
   WebBrowser.openBrowserAsync(
-    'https://docs.expo.io/versions/latest/workflow/up-and-running/#cant-see-your-changes'
-  );
+  'https://www.instagram.com/ucjas.official/'
+  )
+}
+
+function handleTwitterPress() {
+  WebBrowser.openBrowserAsync(
+    'https://twitter.com/ucjas_official'
+  )
+}
+
+function handleRulesPress() {
+  WebBrowser.openBrowserAsync(
+    'https://www.uchi-con.com/rules'
+  )
+}
+
+function handleSponsorsPress() {
+  WebBrowser.openBrowserAsync(
+    'https://www.uchi-con.com/sponsors'
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
   },
   developmentModeText: {
     marginBottom: 20,
@@ -129,11 +131,11 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   welcomeImage: {
-    width: 100,
-    height: 80,
+    width: '100%',
+    height: 170,
     resizeMode: 'contain',
-    marginTop: 3,
-    marginLeft: -10,
+    alignItems: 'center',
+    marginTop: 5,
   },
   getStartedContainer: {
     alignItems: 'center',
@@ -150,9 +152,9 @@ const styles = StyleSheet.create({
     borderRadius: 3,
     paddingHorizontal: 4,
   },
-  getStartedText: {
-    fontSize: 17,
-    color: 'rgba(96,100,109, 1)',
+  dateText: {
+    fontSize: 20,
+    color: '#fff',
     lineHeight: 24,
     textAlign: 'center',
   },
@@ -184,15 +186,21 @@ const styles = StyleSheet.create({
   navigationFilename: {
     marginTop: 5,
   },
-  helpContainer: {
-    marginTop: 15,
+  socialMediaIcons: {
+    flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center'
   },
-  helpLink: {
-    paddingVertical: 15,
+  homeMenu: {
+    marginTop: 15,
+    width: '70%',
+    alignSelf: 'center'
   },
-  helpLinkText: {
-    fontSize: 14,
-    color: '#2e78b7',
+  homeBirbImg: {
+    width: '100%',
+    height: 170,
+    resizeMode: 'contain',
+    alignItems: 'center',
+    marginTop: 5,
   },
 });

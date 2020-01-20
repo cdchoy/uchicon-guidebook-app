@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tmpa",
-    "slug": "tmpa",
+    "name": "UChi-Con Guidebook App",
+    "slug": "uchi-con-guidebook-app",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
