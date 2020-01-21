@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 83468,
-  "expoServerNgrokUrl": "https://zi-h6v.anonymous.uchicon-guidebook-app.exp.direct",
-  "packagerNgrokUrl": "https://packager.zi-h6v.anonymous.uchicon-guidebook-app.exp.direct",
-  "ngrokPid": 83478
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": "https://zi-h6v.cchoy96.uchicon-guidebook-app.exp.direct",
+  "packagerNgrokUrl": "https://packager.zi-h6v.cchoy96.uchicon-guidebook-app.exp.direct",
+  "ngrokPid": 88023
 }
