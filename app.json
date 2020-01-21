@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "UChi-Con Guidebook App",
-    "slug": "uchi-con-guidebook-app",
+    "name": "UChi-Con Guidebook",
+    "slug": "uchi-con-guidebook",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Information Guidebook for UChi-Con 2020. View our anime convention's panels, departments, maps, and more!",
+    "githubUrl": "https://github.com/cchoy96/uchicon-guidebook-app"
   }
 }
