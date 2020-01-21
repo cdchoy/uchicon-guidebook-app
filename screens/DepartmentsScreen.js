@@ -13,7 +13,7 @@ export default function DepartmentsScreen() {
       {
         departments.map((item, i) => (
           <DepartmentItem
-            i={i}
+            key={i}
             item={item}
           />
         ))

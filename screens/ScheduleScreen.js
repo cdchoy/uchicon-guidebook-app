@@ -12,7 +12,7 @@ export default function ScheduleScreen() {
       {
         panels.map((item, i) => (
           <ScheduleItem
-            i={i}
+            key={i}
             item={item}
           />
         ))

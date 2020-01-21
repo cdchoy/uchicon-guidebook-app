@@ -123,6 +123,7 @@ const styles = StyleSheet.create({
   },
   contentContainer: {
     paddingTop: 30,
+    justifyContent: 'space-around',
   },
   welcomeContainer: {
     alignItems: 'center',

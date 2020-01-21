@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, Modal, Text, TouchableHighlight, View, Alert, Button} from 'react-native';
+import {StyleSheet, Text, View, Button} from 'react-native';
 import {Overlay, ListItem} from 'react-native-elements';
 
 export default class DepartmentItem extends Component {
@@ -39,7 +39,6 @@ export default class DepartmentItem extends Component {
         </Overlay>
 
         <ListItem
-          key={this.props.i}
           leftIcon={Platform.OS === 'ios' ? { name: this.props.item.ios_icon} : { name: this.props.item.icon}}
           title={this.props.item.title}
           subtitle={this.props.item.location}

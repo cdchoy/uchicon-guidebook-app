@@ -4,8 +4,6 @@ import {StyleSheet, View, Image, Text } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 
 export default function MapScreen() {
-  const source = [{url: '', props: {source: require('../assets/images/map.png')}}]
-
   return (
       <View style={styles.container}>
         <ScrollView 
