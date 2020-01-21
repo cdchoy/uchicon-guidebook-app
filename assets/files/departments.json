@@ -1,0 +1,67 @@
+{
+    "departments": [
+      {
+        "title": "Cafe",
+        "location": "Ida Noyes 3F",
+        "description": "Come enjoy delicious appetizers catered by Noodles Etc. We will be selling Pocky, ramune, and other food items from the Ida Noyes 3F Theatre. As a courtesy to other guests, please reuse your free water cups! Open from 10am to 3pm.",
+        "icon": "local-pizza",
+        "ios-icon": "ios-home"
+      },
+      {
+        "title": "Maid & Butler Cafe ($)",
+        "location": "Harper",
+        "description": "Charming maids and butlers are eager to welcome you with a smile. Each session runs 1 hour and includes complimentary tea, cookies, and lots of fun! Sessions are at 11:00am-12:00pm and 3:00pm-4:00pm. Be sure to start lining up early in front of the door to get a spot! Tickets are $10.",
+        "icon": "local-cafe",
+        "ios-icon": "ios-home"
+      },
+      {
+        "title": "Manga Cafe",
+        "location": "Harper",
+        "description": "Find your way to Harper to relax and read your choice of manga or comic book. Hosted by First Aid Comics, feel free to purchase any book that strikes your fancy!",
+        "icon": "book",
+        "ios-icon": "ios-home"
+      },
+      {
+        "title": "Karaoke",
+        "location": "Harper",
+        "description": "Live out your idol dreams before an audience with professional mics and speakers in UChi-Con’s traditional karaoke room!",
+        "icon": "mic",
+        "ios-icon": "ios-home"
+      },
+      {
+        "title": "Escape Room ($)",
+        "location": "Harper",
+        "description": "If detention wasn't bad enough, now you and your classmates find yourself trapped in the haunted classroom by a tortured spirit. You have one way out: Solve the riddles within 45 minutes to free the ghost from its curse, or remain in detention for eternity!",
+        "icon": "explore",
+        "ios-icon": "ios-home"
+      },
+      {
+        "title": "Anime Bingo Screening",
+        "location": "Harper",
+        "description": "Watch episodes from some of our favorite anime of the season and all time! Prizes await those who achieve BINGO on our anime trope-filled bingo cards.",
+        "icon": "videocam",
+        "ios-icon": "ios-home"
+      },
+      {
+        "title": "Game Room",
+        "location": "Ida Noyes 2F",
+        "description": "Hosted by Kevin Faire of I Play Games, the UChi-Con game room brings free video games of all genres. Come find us on the second floor of Ida Noyes!",
+        "icon": "games",
+        "ios-icon": "ios-home"
+      },
+      {
+        "title": "Tabletop Game Room",
+        "location": "Ida Noyes 2F",
+        "description": "The tabletop game room returns with more games and more tables than ever. Chill out with games of Catan, D&D, and more on Ida’s second floor!",
+        "icon": "play-circle-outline",
+        "ios-icon": "ios-home"
+      },
+      {
+        "title": "Photobooth",
+        "location": "Ida Noyes 1F",
+        "description": "Come and get your photo taken by professional photographer Eddie B Photos for free!",
+        "icon": "photo-camera",
+        "ios-icon": "ios-home"
+      }
+    ]
+  }

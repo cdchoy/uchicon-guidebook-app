@@ -6,6 +6,7 @@ import { createBottomTabNavigator } from 'react-navigation-tabs';
 import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
 import ScheduleScreen from '../screens/ScheduleScreen';
+import DepartmentsScreen from '../screens/DepartmentsScreen';
 import MapScreen from '../screens/MapScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
@@ -26,11 +27,7 @@ HomeStack.navigationOptions = {
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      name={
-        Platform.OS === 'ios'
-          ? `ios-home${focused ? '' : '-outline'}`
-          : 'md-home'
-      }
+      name={ Platform.OS === 'ios' ? 'ios-home' : 'md-home' }
     />
   ),
 };
@@ -69,6 +66,22 @@ MapStack.navigationOptions = {
 
 MapStack.path = '';
 
+const DepartmentsStack = createStackNavigator(
+  {
+    Departments: DepartmentsScreen,
+  },
+  config
+)
+
+DepartmentsStack.navigationOptions = {
+  tabBarLabel: 'Departments',
+  tabBarIcon: ({focused}) => (
+    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-pin' : 'md-pin'} />
+  ),
+}
+
+DepartmentsStack.path = '';
+
 const SettingsStack = createStackNavigator(
   {
     Settings: SettingsScreen,
@@ -88,6 +101,7 @@ SettingsStack.path = '';
 const tabNavigator = createBottomTabNavigator({
   HomeStack,
   ScheduleStack,
+  DepartmentsStack,
   MapStack
 });
 
