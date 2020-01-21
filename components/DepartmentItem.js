@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, Button} from 'react-native';
 import {Overlay, ListItem} from 'react-native-elements';
+import {Ionicons} from "@expo/vector-icons";
 
 export default class DepartmentItem extends Component {
   state = {
@@ -12,6 +13,7 @@ export default class DepartmentItem extends Component {
   }
 
   render() {
+    const icon = Platform.OS === 'ios' ? this.props.item.ios_icon : this.props.item.icon;
     return (
       <View style={{marginTop: 0}}>
         <Overlay
@@ -39,7 +41,8 @@ export default class DepartmentItem extends Component {
         </Overlay>
 
         <ListItem
-          leftIcon={Platform.OS === 'ios' ? { name: this.props.item.ios_icon} : { name: this.props.item.icon}}
+          // leftIcon={{name: icon}}
+          leftElement={<Ionicons name={icon} size={32}/>}
           title={this.props.item.title}
           subtitle={this.props.item.location}
           subtitleStyle={{color: '#1f8cf2'}}
@@ -80,4 +83,4 @@ const styles = StyleSheet.create({
     marginBottom: 0,
     justifyContent: 'space-between'
   }
-})
+});
