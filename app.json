@@ -2,15 +2,13 @@
   "expo": {
     "name": "UChi-Con Guidebook",
     "slug": "uchi-con-guidebook",
+    "description": "Information Guidebook for UChi-Con 2020. View our anime convention's panels, departments, maps, and more!",
+    "githubUrl": "https://github.com/cchoy96/uchicon-guidebook-app",
     "privacy": "public",
     "sdkVersion": "36.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
     "version": "1.0.0",
     "orientation": "portrait",
+    "primaryColor": "#800000",
     "icon": "./assets/images/icon.png",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -23,14 +21,17 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.chrischoytheapp.uchiconguidebook"
     },
-    "description": "Information Guidebook for UChi-Con 2020. View our anime convention's panels, departments, maps, and more!",
-    "githubUrl": "https://github.com/cchoy96/uchicon-guidebook-app",
     "android": {
-      "package": "com.chrischoytheapp.uchiconguidebook"
+      "package": "com.chrischoytheapp.uchiconguidebook",
+      "permissions": []
     }
   }
 }

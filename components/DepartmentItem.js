@@ -20,7 +20,7 @@ export default class DepartmentItem extends Component {
           isVisible={this.state.popupVisible}
           onBackdropPress={() => this.setState({ popupVisible: false })}
           windowBackgroundColor="rgba(255, 255, 255, .5)"
-          overlayBackgroundColor="#d6ffef" 
+          overlayBackgroundColor="#E7FFEA"
           borderRadius={5}
           height="auto"
           width="95%"

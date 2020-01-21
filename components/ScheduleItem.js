@@ -18,7 +18,7 @@ export default class ScheduleItem extends Component {
           isVisible={this.state.popupVisible}
           onBackdropPress={() => this.setState({ popupVisible: false })}
           windowBackgroundColor="rgba(255, 255, 255, .5)"
-          overlayBackgroundColor="#fff8d9" 
+          overlayBackgroundColor="#FDF2EA"
           borderRadius={5}
           height="auto"
           width="95%"
