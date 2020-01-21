@@ -28,5 +28,8 @@
     },
     "description": "Information Guidebook for UChi-Con 2020. View our anime convention's panels, departments, maps, and more!",
     "githubUrl": "https://github.com/cchoy96/uchicon-guidebook-app"
+  },
+  "android": {
+    "package": "com.chrischoytheapp.uchiconguidebook"
   }
 }
